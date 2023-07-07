@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 10pt;
+    margin-right: 20pt;
+    text-decoration:none;
+    background: transparent;
+}
+.tabs{
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+    font-size:20pt;
+    text-shadow: 3px 2px 3px green;
+    cursor:pointer;
+}
+.tabs:hover{
+    letter-spacing: 1pt;
+    text-decoration: underline;  
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);  
+}
+body{
+    background: url("images/backgrounds/coffee-house-facade-of-a-coffee-shop-store-or-cafe-city-street-background-illustration-vector.jpg")no-repeat;
+    background-size: cover;
+    height: 550pt;
+    overflow: hidden;
+    
+}
+.aa{
+    color: greenyellow;
+}
+.words{
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 2px black;
+    padding-right: 4pt;
+   
+}
+.table{
+    background: rgba(0,0,0,0.4) ;
+    background-size: cover;
+}
+.dear{
+    font-family: inherit;
+    font-size: 18pt;
+    color: green;
+}
+.search{
+    background:greenyellow
+}
+.search-bar{
+    border-radius: 25pt;
+    border:green;
+    height: 35px;
+    width: 250px;
+}
+.search-bar::placeholder{
+    margin: 15pt;
+    color: green;
+}
+.button{
+    background: green;
+    border-radius: 25pt;
+    border:black;
+    height: 35px;
+    width: 100px;
+}
+.button:hover{
+    background: rgb(12, 59, 12);
+}
+.contactus{
+    font-family:inherit;
+    font-size: 21pt;
+    color: rgb(163, 235, 21);
+}
+.b{
+    color:white;
+    text-shadow: 2px 1px 5px black;
+    font-size: 14pt;
+}
+.ab{
+    color:transparent;
+}
+footer{
+    background: rgba(0,0,0,0.8);
+}
+.abc{
+    color: white;
+    font-size: 16px;
+}
+.rel{
+    background: url(images/backgrounds/electronic.PNG) no-repeat;
+    background-size: 1369px;
+    background-position: center;
+    overflow: scroll;
+}.commodities{
+   
+    background: rgb(0, 0, 0,0.9);
+    margin: 10pt;
+    
+} 
